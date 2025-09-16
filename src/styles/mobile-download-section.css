@@ -1,0 +1,139 @@
+.mobile-download-page-button {
+  color: black;
+  background-color: #f2f862;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5vw;
+  padding-top: 1.33vw;
+  padding-bottom: 1.33vw;
+  padding-left: 1.77vw;
+  padding-right: 1.77vw;
+  font-size: 1.96vw;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  margin-bottom: -4.5vw;
+}
+
+.mobile-download-page-wrapper{
+    padding-top:20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.people-container{
+    display: flex;
+}
+
+.mobile-download-page-email-container {
+  background-color: #161616;
+  border: 0.15vw solid #404040;
+  border-radius: 0.7vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding: 0.1vw;
+  margin-top: 2vw;
+  width: 70%;
+  max-width: 86vw;
+}
+
+
+.mobile-download-page-email-input {
+  background: none;
+  color: #f2f2f2;
+  border: none;
+  padding: 1vw;
+  flex: 1;
+  box-sizing: border-box;
+  font-size: 2.6vw;
+}
+
+
+.mobile-download-page-email-input::placeholder {
+  color: #777;
+  padding-left: 2vw;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.mobile-download-page-email-button {
+  color: black;
+  background-color: #f2f862;
+  font-family: 'Urbanist', sans-serif;
+  border: none;
+  border-radius: 0.7vw;
+  padding: 1vw 2vw;
+  font-size: 2.5vw;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.mobile-download-page-joinnow-image {
+  margin-top: 7vw;
+  width: 25vw;
+  height: auto;
+}
+
+.join-now-text{
+  padding-top: 1vw;
+    font-size: 2.75vw;
+}
+
+.join-now-text-yellow{
+  margin-top: -0.5vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+    color: #f2f862;
+    font-size: 2.75vw;
+}
+
+.mobile-download-page-subheading {
+  font-size: 5.25vw;
+  font-weight: bold;
+}
+
+.mobile-final-download-now-image{
+    padding-top: 15vw;
+    width: 100vw;
+}
+
+.mobile-download-page-subtext {
+  margin-top: -1.6vw;
+  font-size: 2.28vw; 
+  /* 3.58vw */
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-weight: 500;
+  line-height: 140%;
+  color: #ddd;
+}
+
+.mobile-download-bands-image{
+    width: 60vw;
+    padding-top: 10vw;
+}
+
+.mobile-download-page-heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: -8vw;
+}
+
+.mobile-download-page-heading {
+  font-size: 9.5vw;
+  font-weight: bold;
+}
+
+.mobile-download-page-heading-underline {
+  width: 66vw;
+  margin-top: -10vw;
+  margin-left: 1.75vw;
+}

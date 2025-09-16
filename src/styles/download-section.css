@@ -1,0 +1,116 @@
+.download-page-wrapper {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.4vw;
+}
+.final-download-now-image {
+  width: 100vw;
+  height: auto;
+  margin-left: -8.3vw;
+  padding-top: 13vw;
+}
+
+.download-page-button {
+    color: black;
+  background-color: #f2f862;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5vw;
+  padding-top: 0.83vw;
+  padding-bottom: 0.83vw;
+  padding-left: 1.67vw;
+  padding-right: 1.67vw;
+  font-size: 0.96vw;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  margin-bottom: -4.5vw;
+}
+
+.download-page-top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+.download-page-heading {
+  font-size: 6.5vw;
+  font-weight: bold;
+}
+
+.download-page-heading-underline {
+  width: 46vw;
+  margin-top: -10vw;
+}
+
+.download-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5vw;
+}
+
+.download-page-subheading {
+  font-size: 3.25vw;
+  font-weight: bold;
+}
+
+.download-page-subtext {
+  margin-top: -1.6vw;
+  font-size: 1.08vw;
+  line-height: 140%;
+  color: #ddd;
+}
+
+.download-bands-image {
+  width: 40vw;
+  height: auto;
+}
+
+.download-page-joinnow-image {
+  margin-top: 4vw;
+  width: 35vw;
+  height: auto;
+}
+
+.download-page-email-container {
+  background-color: #161616;
+  border: 0.15vw solid #404040;
+  border-radius: 0.7vw;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding: 0.1vw;
+  margin-top: 2vw;
+}
+
+.download-page-email-input {
+  background: none;
+  color: #f2f2f2;
+  border: none;
+  padding: 1vw;
+  flex: 1;
+  box-sizing: border-box;
+  font-size: 1vw;
+}
+
+.download-page-email-input::placeholder {
+  color: #777;
+}
+
+.download-page-email-button {
+  background-color: #f2f862;
+    color: black;
+  font-family: 'Urbanist', sans-serif;
+  border: none;
+  border-radius: 0.7vw;
+  padding: 1vw 2vw;
+  font-size: 1vw;
+  font-weight: 550;
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.footer-right-div-cont{
+    padding:0.27vw;
+}
+
+.footer-left-div-logo{
+    padding-bottom:1.11vw;
+    margin-top: -4vw;
+}
+
+.footer-right-div-headings{
+    font-weight: 500;
+    font-size: 1.08vw;
+    margin-bottom: 1.4vw;
+}
+.footer-right-div-text{
+    font-weight: 200;
+    font-size: 1.08vw;
+    gap:0.23vw;
+    color:#fefeef;
+}
+
+.footer-right-div{
+  margin-left:1.75vw;
+  display: flex;
+  gap:8.5vw;
+}
+.footer-container-div{
+  margin-top:6vw;
+  margin-bottom:5vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  display: flex;
+  gap:1vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-links{
+  background:none;
+  border: none;
+  color:grey;
+}
+
+.footer-copyright-container{
+    margin-top:1.6vw;
+    font-size: 1.08vw;
+}
+
+.footer-tappd-logo{
+  margin-top: -9vw;
+    width:6.95vw;
+    height: auto;
+}
+
+.footer-instagram-logo,.footer-linkedin-logo, .footer-twitter-logo{
+  width: 1.4vw;
+  height: auto;
+}
+
+.footer-left-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social{
+  display: flex;
+  gap:0.6vw;
+  margin-left: -0.3vw;
+}
+
+@media (max-width: 1024px){
+  .footer-left-div-logo{
+    padding-bottom:0vw;
+}
+
+.footer-social{
+  padding-top: 0vw;
+  padding-bottom: 1vw;
+}
+
+.footer-copyright-container{
+    margin-top:0vw;
+    font-size: 1.08vw;
+}
+
+.footer-right-div{
+  gap: 5vw;
+}
+
+.footer-left-div{
+  margin-top: -1.5vw;
+  gap: 1.5vw;
+}
+
+.footer-tappd-logo{
+  margin-top: -9vw;
+    width:6.95vw;
+    height: auto;
+}
+
+.footer-instagram-logo,.footer-linkedin-logo, .footer-twitter-logo{
+  width: 1.4vw;
+  height: auto;
+}
+}

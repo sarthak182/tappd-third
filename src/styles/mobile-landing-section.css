@@ -1,0 +1,114 @@
+.mobile-tappd-website-container{
+  margin-left: 7vw;
+  margin-right: 7vw;
+  padding-bottom: 38vw;
+}
+
+.mobile-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-heading{
+  margin: 0;
+  font-size: 8.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mobile-text-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mobile-images-section{
+  margin-left: -3.8vw;
+  padding-top: 10vw;
+  padding-bottom: 36vw;
+}
+
+.mobile-first-image-landing-page, .mobile-second-image-landing-page, .mobile-third-image-landing-page{
+  transition: transform 0.15s ease;
+  position: absolute;
+}
+
+.mobile-first-image-landing-page{
+  margin-left: 25vw;
+  rotate: 10deg;
+  width:40vw;
+  z-index: 2;
+}
+
+.mobile-second-image-landing-page{
+  width:39vw;
+  margin-left: 3vw;
+  margin-top: 4vw;
+  z-index: 1;
+}
+.mobile-third-image-landing-page{
+  width:40vw; 
+  margin-left: 48vw;
+  margin-top: 3.5vw;
+  z-index:1;
+}
+
+.mobile-subtext{
+  font-size: 3.35vw;
+  font-weight: normal;
+  padding-top: 1.2vw;
+  line-height: 140%;
+}
+
+.mobile-buttons-section{
+  display: flex;
+  gap: 2vw;
+  padding-top: 2vw;
+}
+
+.mobile-waitlist-button{
+    color: black;
+  background-color: #f2f862;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 2.35vw;
+  font-weight: 550;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  border: none;
+  border-radius: 0.75vw;
+}
+
+.mobile-explore-button{
+  color: #fefeef;
+  font-family: 'Urbanist', sans-serif;
+  border: 1px solid white;
+  font-size: 2.35vw;
+  font-weight: normal;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  border-radius: 0.75vw;
+  background: none;
+}
+
+.mobile-review-heading{
+  font-size: 2.85vw;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.mobile-review-subtext{
+  margin-top:1px;
+  font-size: 2.58vw;
+}
+
+.mobile-reviews-section{
+  margin-left: 3vw;
+    padding-top: 5vw;
+    display: flex;
+    gap: 7.5vw;
+}

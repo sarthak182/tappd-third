@@ -1,0 +1,32 @@
+body {
+  color: #fefeef;
+  background-color: black;
+  font-family: 'Urbanist', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+a {
+  appearance: none;          /* standard property for all browsers */
+  -webkit-appearance: none;  /* Safari/iOS */
+  -moz-appearance: none;     /* Firefox */
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Optional: remove tap highlight on mobile */
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

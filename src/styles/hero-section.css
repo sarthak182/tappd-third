@@ -1,0 +1,212 @@
+.hero-section{
+    margin-left:7vw;
+    margin-right:7vw;
+}
+
+.hero-page-working-button {
+    background-color: #f2f862;
+    color: black;
+    border: none;
+    border-radius: 3.47vw;
+    padding-top: 0.83vw;
+    padding-bottom: 0.83vw;
+    padding-left: 1.67vw;
+    padding-right: 1.67vw;
+    font-size: 0.94vw;
+}
+
+.hero-first-glow, .hero-second-glow, .hero-third-glow{
+  position: absolute;
+  width: 50vw;
+  height: auto;
+  transform: translate(-50%, -50%);
+  filter: brightness(38%);
+  z-index: -1;
+}
+
+.hero-first-glow{
+  top: 123vw;
+  left: 15vw;
+}
+
+.hero-second-glow{
+    top: 164vw;
+  left: 80vw;
+}
+
+.hero-third-glow{
+    top: 207vw;
+  left: 17vw;
+}
+.hero-section-heading{
+    margin-top: 2.5vw;
+    font-size: 4.33vw;
+    font-weight: bold;
+    padding-bottom: 4vw;
+}
+
+.first_hero_image, .second_hero_image,.third_hero_image{
+    width: 41vw;
+}
+
+.hero-first-card{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;     
+}
+.hero-second-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+}
+.hero-third-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+}
+
+.hero-first-heading, .hero-second-heading, .hero-third-heading{
+    color: #f2f862;
+    font-size: 8.66vw;
+    font-weight: bold;
+    margin-top:-10.5vw;
+    padding-bottom: 2.6vw;
+}
+
+.hero-first-card-title,.hero-second-card-title,.hero-third-card-title{
+    font-size: 3.25vw;
+    font-weight: bold;
+    margin-top:-10vw;
+    padding-bottom: 0.8vw;
+}
+
+.hero-first-card-subtext, .hero-second-card-subtext, .hero-third-card-subtext{
+    font-size:1.08vw;
+    font-weight: 400;
+    margin-top:-2vw;
+}
+
+.hero-section-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 12vw;
+}
+
+@media (max-width: 1024px){
+.hero-first-card-text, .hero-third-card-text{
+    margin-top: 12vw;
+    }
+
+.hero-second-card-text{
+    margin-top: 15vw;
+}
+.hero-first-card{
+    margin-top: 5vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;     
+    gap: 10vw;
+}
+.hero-second-card{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vw;     
+}
+.hero-third-card{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    gap: 10vw;
+}
+
+.hero-first-heading, .hero-second-heading, .hero-third-heading{
+    color: #f2f862;
+    font-size: 9.66vw;
+    font-weight: bold;
+    margin-top:-10.5vw;
+    padding-bottom: 2.6vw;
+}
+
+.first_hero_image, .second_hero_image,.third_hero_image{
+    width: 31vw;
+}
+
+.hero-section{
+    margin-left:7vw;
+    margin-right: 7vw;
+    justify-content: center;
+    align-items: center;
+    margin-right:7vw;
+    padding-bottom: 20vw;
+}
+
+.mobile-break{
+    display: none;
+}
+
+.hero-section-heading{
+    margin-top: 2.5vw;
+    font-size: 7.83vw;
+    font-weight: bold;
+    padding-bottom: 4vw;
+}
+
+.hero-page-working-button {
+    background-color: #f2f862;
+    color: black;
+    border: none;
+    border-radius: 3.47vw;
+    padding-top: 1.83vw;
+    padding-bottom: 1.83vw;
+    padding-left: 2.67vw;
+    padding-right: 2.67vw;
+    font-size: 1.94vw;
+    font-family: 'Urbanist', sans-serif;
+}
+.hero-first-card-title,.hero-second-card-title,.hero-third-card-title{
+    font-size: 4.25vw;
+    font-weight: bold;
+    margin-top:-10vw;
+    padding-bottom: 0.8vw;
+}
+
+.hero-first-card-subtext, .hero-second-card-subtext, .hero-third-card-subtext{
+    font-size:2.28vw;
+    font-weight: 400;
+    margin-top:-2vw;
+}
+
+.hero-section-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10vw;
+}
+
+.hero-first-glow, .hero-second-glow, .hero-third-glow{
+  position: absolute;
+  width: 50vw;
+  height: auto;
+  transform: translate(-50%, -50%);
+  filter: brightness(38%);
+  z-index: -1;
+}
+
+.hero-first-glow{
+  top: 240vw;
+  left: 17vw;
+}
+
+.hero-second-glow{
+    top: 295vw;
+  left: 75vw;
+}
+
+.hero-third-glow{
+    top: 349vw;
+  left: 17vw;
+}
+
+}

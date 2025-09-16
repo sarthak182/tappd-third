@@ -1,0 +1,10 @@
+body{
+  overflow-x: hidden;
+  overflow-y: auto;}
+
+@media (max-width: 1024px){
+body{
+  overflow-x: hidden;
+  overflow-y: auto;}
+
+}
