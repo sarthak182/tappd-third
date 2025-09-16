@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import '../styles/navbar-section.css';
 import { FaBars, FaTimes } from "react-icons/fa";
 import navbarlogo from "../images/NavbarLogo.png";
@@ -6,6 +6,20 @@ import navbarlogo from "../images/NavbarLogo.png";
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    };
+
+    if (menuOpen) {
+      document.addEventListener("click", handleClickOutside);
+    }
+
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, [menuOpen]);
 
   useEffect(() => {
     const checkScreenSize = () => {

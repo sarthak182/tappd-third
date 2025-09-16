@@ -27,7 +27,9 @@ function MobileLanding() {
             events and making authentic connections with people
             who share your interests. Real life, made easy</p>
           <div className="mobile-buttons-section">
-            <button className ="mobile-waitlist-button">Join the Waitlist</button>
+            <button className ="mobile-waitlist-button" onClick={() => window.open(
+              "https://forms.gle/QBqkLtwDh7Uw5CCg6",
+             "_blank")}>Join the Waitlist</button>
             <button className="mobile-explore-button">Explore Tappd</button>
           </div>
           <div className="mobile-reviews-section">

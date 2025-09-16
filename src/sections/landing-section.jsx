@@ -27,7 +27,8 @@ function Landing() {
             events and making authentic connections with people<br/>
             who share your interests. Real life, made easy</p>
           <div className="buttons-section">
-            <button className ="waitlist-button">Join the Waitlist</button>
+            <button className ="waitlist-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
+             "_blank")}>Join the Waitlist</button>
             <button className="explore-button">Explore Tappd</button>
           </div>
           <div className="reviews-section">

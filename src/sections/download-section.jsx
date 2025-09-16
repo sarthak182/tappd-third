@@ -37,7 +37,8 @@ function DownloadPage() {
               exchange contact<br/>info with a mutual tap-no more awkward phone number requests.</p>
             <div className='download-page-email-container'>
               <input type="email" className="download-page-email-input" placeholder="Email"></input>
-              <button className="download-page-email-button">Join The Waitlist</button>
+              <button className="download-page-email-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
+             "_blank")}>Join The Waitlist</button>
             </div>
             <img src={peopleicon} className="download-page-joinnow-image" alt="tappd-joinnow"/>
           </div>

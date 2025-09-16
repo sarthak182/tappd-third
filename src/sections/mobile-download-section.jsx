@@ -35,7 +35,8 @@ function MobileDownloadPage() {
               exchange contact info with a mutual tap-no more awkward phone number requests.</p>
             <div className='mobile-download-page-email-container'>
               <input type="email" className="mobile-download-page-email-input" placeholder="Email"></input>
-              <button className="mobile-download-page-email-button">Join The Waitlist</button>
+              <button className="mobile-download-page-email-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
+             "_blank")}>Join The Waitlist</button>
             </div>
                 <img src={peopleicon} className="mobile-download-page-joinnow-image" alt="tappd-joinnow"/>
                 <p className='join-now-text'>Join the 12,500+ others on the waitlist!</p>
