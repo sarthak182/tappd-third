@@ -38,6 +38,7 @@
   }
 
 .tappd-features-subtext{
+  font-size: 1.08vw;
   line-height: 140%;
 }
 
@@ -50,7 +51,7 @@
 
 .tappd-features-button{
   background-color: #f2f862;
-    color: black;
+  color: black;
   border:none;
   width:fit-content;
   height: fit-content;
