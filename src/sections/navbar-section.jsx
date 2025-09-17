@@ -38,9 +38,9 @@ function Navbar() {
             {/* 81 226.5 300 346 408 */}
             {/* 8 22.5 29.5  */}
             <button className="navbar-buttons" onClick={() => ScrollScreen(66)}>About Us</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(183.3)}>Features</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(243.5)}>Host</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(265)}>Business</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(183.5)}>Features</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(243.7)}>Host</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(280)}>Business</button>
             <button className="navbar-buttons" onClick={() => ScrollScreen(408)}>Careers</button>
           </div>
           <button className="navbar-waitlist-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
