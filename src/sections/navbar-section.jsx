@@ -34,11 +34,14 @@ function Navbar() {
         {!isMobile && (
           <>
           <div className="navbar-buttons-section">
-            <button className="navbar-buttons" onClick={() => ScrollScreen(73)}>About Us</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(204)}>Features</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(270.5)}>Host</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(338)}>Business</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(400)}>Careers</button>
+            {/* 73 -> 81 204 270.5 338 400 */}
+            {/* 81 226.5 300 346 408 */}
+            {/* 8 22.5 29.5  */}
+            <button className="navbar-buttons" onClick={() => ScrollScreen(65)}>About Us</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(181.5)}>Features</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(241)}>Host</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(295)}>Business</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(408)}>Careers</button>
           </div>
           <button className="navbar-waitlist-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
              "_blank")}>Join the Waitlist</button>
