@@ -40,7 +40,7 @@ function Navbar() {
             <button className="navbar-buttons" onClick={() => ScrollScreen(66)}>About Us</button>
             <button className="navbar-buttons" onClick={() => ScrollScreen(184.5)}>Features</button>
             <button className="navbar-buttons" onClick={() => ScrollScreen(244.5)}>Host</button>
-            <button className="navbar-buttons" onClick={() => ScrollScreen(300)}>Business</button>
+            <button className="navbar-buttons" onClick={() => ScrollScreen(307)}>Business</button>
             <button className="navbar-buttons" onClick={() => ScrollScreen(408)}>Careers</button>
           </div>
           <button className="navbar-waitlist-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
