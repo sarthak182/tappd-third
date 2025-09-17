@@ -80,13 +80,14 @@
 
 .tappd-features-upper-section-first-cont,.tappd-features-lower-section-second-cont  {
   flex:4.4;
-  border:1.4px solid #404040;
+  border:1px solid #404040;
+  /* 1.4px */
   background-color: #161616;
 }
 
 .tappd-features-upper-section-second-cont, .tappd-features-lower-section-first-cont {
   flex:5.6;
-  border:1.4px solid #404040;
+  border:1px solid #404040;
   background-color: #161616;
 }
 
