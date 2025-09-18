@@ -1,9 +1,9 @@
 import '../styles/mobile-download-section.css';
-import tappdvector from "../images/TapToConnectVector3x.png";
-import downloadnow from "../images/DownloadApp3x.png";
-import bands from "../images/TappdBands3x.png";
-import peopleicon from "../images/PeopleIcon.png";
-import firstglow from "../images/FirstGlow.png";
+// import tappdvector from "../images/TapToConnectVector3x.png";
+// import downloadnow from "../images/DownloadApp3x.png";
+// import bands from "../images/TappdBands3x.png";
+// import peopleicon from "../images/PeopleIcon.png";
+// import firstglow from "../images/FirstGlow.png";
 function MobileDownloadPage() {
   return (
     <>
@@ -12,11 +12,11 @@ function MobileDownloadPage() {
         <button className="mobile-download-page-button">We Are Launching Soon</button>
         <div className="mobile-download-page-heading-wrapper">
         <p className="mobile-download-page-heading">Tap To Connect</p>
-        <img src={tappdvector} className="mobile-download-page-heading-underline" alt="heading-underline"/>
+        <img src="/images/TapToConnectVector3x.png" className="mobile-download-page-heading-underline" alt="heading-underline"/>
         </div>
         </div>
             <img 
-                                    src={firstglow} 
+                                    src="/images/FirstGlow.png" 
                                     alt="glow"
                                     style={{
                                       position: "absolute",
@@ -38,12 +38,12 @@ function MobileDownloadPage() {
               <button className="mobile-download-page-email-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
              "_blank")}>Join The Waitlist</button>
             </div>
-                <img src={peopleicon} className="mobile-download-page-joinnow-image" alt="tappd-joinnow"/>
+                <img src="/images/PeopleIcon.png" className="mobile-download-page-joinnow-image" alt="tappd-joinnow"/>
                 <p className='join-now-text'>Join the 12,500+ others on the waitlist!</p>
                 <p className='join-now-text-yellow'>Stay tuned for the feature that will change networking forever.</p>
           <div className='mobile-download-section-content-image'>
                         <img 
-                                    src={firstglow} 
+                                    src="/images/FirstGlow.png" 
                                     alt="glow"
                                     style={{
                                       position: "absolute",
@@ -56,9 +56,9 @@ function MobileDownloadPage() {
                                       zIndex: -1
                                     }} 
                                   />
-            <img src={bands} className="mobile-download-bands-image" alt="tappd-bands"/>
+            <img src="/images/TappdBands3x.png" className="mobile-download-bands-image" alt="tappd-bands"/>
           </div>
-        <img src={downloadnow} className="mobile-final-download-now-image" alt="tappd-bands"/>
+        <img src="/images/DownloadApp3x.png" className="mobile-final-download-now-image" alt="tappd-bands"/>
     </div>
     </>
   );

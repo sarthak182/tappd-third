@@ -1,14 +1,14 @@
 import '../styles/mobile-landing-section.css';
-import firstimage_landingpage from "../images/LandingPageFirstImage.png";
-import secondimage_landingpage from "../images/LandingPageSecondImage.png";
-import thirdimage_landingpage from "../images/LandingPageThirdImage3x.png";
-import firstglow from "../images/FirstGlow.png";
+// import firstimage_landingpage from "../images/LandingPageFirstImage.png";
+// import secondimage_landingpage from "../images/LandingPageSecondImage.png";
+// import thirdimage_landingpage from "../images/LandingPageThirdImage3x.png";
+// import firstglow from "../images/FirstGlow.png";
 function MobileLanding() {
   return (
     <div className="mobile-tappd-website-container">
       <div className="mobile-container">
         <img 
-        src={firstglow} 
+        src="/images/FirstGlow.png" 
         alt="glow"
         style={{
           position: "absolute",
@@ -39,13 +39,13 @@ function MobileLanding() {
           </div>
         </div>
         <div className="mobile-images-section">
-          <img className="mobile-first-image-landing-page" src={firstimage_landingpage} alt="example"/>
-          <img className="mobile-second-image-landing-page" src={secondimage_landingpage} alt="example"/>
-          <img className="mobile-third-image-landing-page" src={thirdimage_landingpage} alt="example"/>
+          <img className="mobile-first-image-landing-page" src="/images/LandingPageFirstImage.png" alt="example"/>
+          <img className="mobile-second-image-landing-page" src="/images/LandingPageSecondImage.png" alt="example"/>
+          <img className="mobile-third-image-landing-page" src="/images/LandingPageThirdImage3x.png" alt="example"/>
         </div>
       </div>
       <img 
-        src={firstglow} 
+        src="/images/FirstGlow.png" 
         alt="glow"
         style={{
           position: "absolute",

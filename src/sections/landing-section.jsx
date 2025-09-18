@@ -1,14 +1,14 @@
 import '../styles/landing-section.css';
-import firstimage_landingpage from "../images/LandingPageFirstImage.png";
-import secondimage_landingpage from "../images/LandingPageSecondImage.png";
-import thirdimage_landingpage from "../images/LandingPageThirdImage3x.png";
-import firstglow from "../images/FirstGlow.png";
+// import firstimage_landingpage from "../images/LandingPageFirstImage.png";
+// import secondimage_landingpage from "../images/LandingPageSecondImage.png";
+// import thirdimage_landingpage from "../images/LandingPageThirdImage3x.png";
+// import firstglow from "../images/FirstGlow.png";
 function Landing() {
   return (
     <div className="tappd-website-container">
       <div className="container">
         <img 
-        src={firstglow} 
+        src="/images/FirstGlow.png" 
         alt="glow"
         style={{
           position: "absolute",
@@ -38,9 +38,9 @@ function Landing() {
           </div>
         </div>
         <div className="images-section">
-          <img className="first-image-landing-page" src={firstimage_landingpage} alt="example"/>
-          <img className="second-image-landing-page" src={secondimage_landingpage} alt="example"/>
-          <img className="third-image-landing-page" src={thirdimage_landingpage} alt="example"/>
+          <img className="first-image-landing-page" src="/images/LandingPageFirstImage.png" alt="example"/>
+          <img className="second-image-landing-page" src="/images/LandingPageSecondImage.png" alt="example"/>
+          <img className="third-image-landing-page" src="/images/LandingPageThirdImage3x.png" alt="example"/>
         </div>
       </div>
     </div>

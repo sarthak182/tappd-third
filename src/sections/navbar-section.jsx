@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import '../styles/navbar-section.css';
 import { FaBars, FaTimes } from "react-icons/fa";
-import navbarlogo from "../images/NavbarLogo.png";
+// import navbarlogo from "../images/NavbarLogo.png";
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <div>
       <div className="navbar">
-        <img className="navbar-logo" src={navbarlogo} alt="example" />
+        <img className="navbar-logo" src="/images/NavbarLogo.png" alt="example" />
         {!isMobile && (
           <>
           <div className="navbar-buttons-section">

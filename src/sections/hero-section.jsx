@@ -1,8 +1,8 @@
 import '../styles/hero-section.css';
-import first_hero_image from "../images/HeroPageFirstImage3x.png";
-import second_hero_image from "../images/HeroPageSecondImage3x.png";
-import third_hero_image from "../images/HeroPageThirdImage3x.png";
-import firstglow from "../images/FirstGlow.png";
+// import first_hero_image from "../images/HeroPageFirstImage3x.png";
+// import second_hero_image from "../images/HeroPageSecondImage3x.png";
+// import third_hero_image from "../images/HeroPageThirdImage3x.png";
+// import firstglow from "../images/FirstGlow.png";
 function HeroPage() {
   return (
     <>
@@ -12,7 +12,7 @@ function HeroPage() {
           <div className='hero-section-cards'>
             <div className='hero-first-card'>
               <div className="hero-first-card-text">
-                <img className='hero-first-glow'src={firstglow} alt="glow"/>
+                <img className='hero-first-glow'src="/images/FirstGlow.png" alt="glow"/>
                 <p className="hero-first-heading">01</p>
                 <p className="hero-first-card-title">Discover Your Scene</p>
                 <p className="hero-first-card-subtext">
@@ -22,16 +22,16 @@ function HeroPage() {
                 </p>
               </div>
               <div>
-                <img className="first_hero_image" src={first_hero_image} alt="first-hero"/>
+                <img className="first_hero_image" src="/images/HeroPageFirstImage3x.png" alt="first-hero"/>
               </div>
             </div>
             <div className='hero-second-card'>
               <div>
-                <img className="second_hero_image" src={second_hero_image} alt="second-hero" />
+                <img className="second_hero_image" src="/images/HeroPageSecondImage3x.png" alt="second-hero" />
               </div>
               <div className="hero-second-card-text">
                 <img className='hero-second-glow'
-                        src={firstglow} 
+                        src="/images/FirstGlow.png" 
                         alt="glow" 
                       />
                 <p className="hero-second-heading">02</p>
@@ -46,7 +46,7 @@ function HeroPage() {
             <div className='hero-third-card'>
               <div className="hero-third-card-text">
                 <img className='hero-third-glow'
-                        src={firstglow} 
+                        src="/images/FirstGlow.png" 
                         alt="glow" 
                       />
                 <p className="hero-third-heading">03</p>
@@ -58,7 +58,7 @@ function HeroPage() {
                 </p>
               </div>
               <div>
-                <img className="third_hero_image" src={third_hero_image} alt="third-hero"/>
+                <img className="third_hero_image" src="/images/HeroPageThirdImage3x.png" alt="third-hero"/>
               </div>
             </div >
           </div>

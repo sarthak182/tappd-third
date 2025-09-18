@@ -1,9 +1,9 @@
 import '../styles/footer-section.css';
 import React, {useState, useEffect} from "react";
-import instagramIcon from "../images/FooterInstagramLogo.png";
-import linkedinIcon from "../images/FooterLinkedinLogo3x.png";
-import twitterIcon from "../images/FooterTwitterLogo3x.png";
-import logo from "../images/FooterTappdLogo3x.png";
+// import instagramIcon from "../images/FooterInstagramLogo.png";
+// import linkedinIcon from "../images/FooterLinkedinLogo3x.png";
+// import twitterIcon from "../images/FooterTwitterLogo3x.png";
+// import logo from "../images/FooterTappdLogo3x.png";
 function Footer() {
            const [width, setWidth] = useState(0);
 
@@ -35,12 +35,12 @@ function Footer() {
         <div className="footer-container-div">
         <div className="footer-left-div">
                 <div className="footer-left-div-logo">
-                    <img src={logo} alt="tappd-logo" className="footer-tappd-logo"/>
+                    <img src="/images/FooterTappdLogo3x.png" alt="tappd-logo" className="footer-tappd-logo"/>
                 </div>
                 <div className="social">
-                <button className="footer-social-links"><img className="footer-instagram-logo" src={instagramIcon} alt="instagram"/></button>
-                <button className="footer-social-links"><img className="footer-linkedin-logo" src={linkedinIcon} alt="linkedin"/></button>
-                <button className="footer-social-links"><img className="footer-twitter-logo" src={twitterIcon} alt="twitter"/></button>
+                <button className="footer-social-links"><img className="footer-instagram-logo" src="/images/FooterInstagramLogo.png" alt="instagram"/></button>
+                <button className="footer-social-links"><img className="footer-linkedin-logo" src="/images/FooterLinkedinLogo3x.png" alt="linkedin"/></button>
+                <button className="footer-social-links"><img className="footer-twitter-logo" src="/images/FooterTwitterLogo3x.png" alt="twitter"/></button>
                 </div>
                 <div className="footer-copyright-container">Copyright © 2025 by Tappd<br/>Pvt Ltd. All rights reserved.</div>
         </div>

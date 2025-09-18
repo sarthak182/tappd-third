@@ -1,9 +1,9 @@
 import '../styles/download-section.css';
-import tappdvector from "../images/TapToConnectVector3x.png";
-import downloadnow from "../images/DownloadApp3x.png";
-import bands from "../images/TappdBands3x.png";
-import peopleicon from "../images/JoinNowComplete3x.png";
-import firstglow from "../images/FirstGlow.png";
+// import tappdvector from "../images/TapToConnectVector3x.png";
+// import downloadnow from "../images/DownloadApp3x.png";
+// import bands from "../images/TappdBands3x.png";
+// import peopleicon from "../images/JoinNowComplete3x.png";
+// import firstglow from "../images/FirstGlow.png";
 function DownloadPage() {
   return (
     <>
@@ -12,13 +12,13 @@ function DownloadPage() {
         <button className="download-page-button">We Are Launching Soon</button>
         <div className="download-page-heading-wrapper">
         <p className="download-page-heading">Tap To Connect</p>
-        <img src={tappdvector} className="download-page-heading-underline" alt="heading-underline"/>
+        <img src="/images/TapToConnectVector3x.png" className="download-page-heading-underline" alt="heading-underline"/>
         </div>
         </div>
         <div className='download-section-content'>
           <div className='download-section-content-text'>
             <img 
-                                    src={firstglow} 
+                                    src="/images/FirstGlow.png" 
                                     alt="glow"
                                     style={{
                                       position: "absolute",
@@ -40,11 +40,11 @@ function DownloadPage() {
               <button className="download-page-email-button" onClick={() => window.open("https://forms.gle/QBqkLtwDh7Uw5CCg6",
              "_blank")}>Join The Waitlist</button>
             </div>
-            <img src={peopleicon} className="download-page-joinnow-image" alt="tappd-joinnow"/>
+            <img src="/images/JoinNowComplete3x.png" className="download-page-joinnow-image" alt="tappd-joinnow"/>
           </div>
           <div className='download-section-content-image'>
                         <img 
-                                    src={firstglow} 
+                                    src="/images/FirstGlow.png" 
                                     alt="glow"
                                     style={{
                                       position: "absolute",
@@ -57,10 +57,10 @@ function DownloadPage() {
                                       zIndex: -1
                                     }} 
                                   />
-            <img src={bands} className="download-bands-image" alt="tappd-bands"/>
+            <img src="/images/TappdBands3x.png" className="download-bands-image" alt="tappd-bands"/>
           </div>
         </div>
-        <img src={downloadnow} className="final-download-now-image" alt="tappd-bands"/>
+        <img src="/images/DownloadApp3x.png" className="final-download-now-image" alt="tappd-bands"/>
     </div>
     </>
   );
